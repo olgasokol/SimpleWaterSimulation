@@ -1,0 +1,57 @@
+﻿  main.cpp
+..\main.cpp(18): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+..\main.cpp(257): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+..\main.cpp(259): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xmemory0(856): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\vector(958): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int>(_Alloc &,_Objty *const ,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<GLfloat>,
+              _Ty=float,
+              _Objty=float
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\vector(958): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int>(_Alloc &,_Objty *const ,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<GLfloat>,
+              _Ty=float,
+              _Objty=float
+          ]
+  ..\main.cpp(179): note: see reference to function template instantiation 'void std::vector<GLfloat,std::allocator<_Ty>>::emplace_back<int>(int &&)' being compiled
+          with
+          [
+              _Ty=GLfloat
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2254): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2273): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=float *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2286): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked<float*,_Iter>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _Iter=int *,
+              _InIt=float *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xutility(2295): note: see reference to function template instantiation '_OutIt std::_Copy_no_deprecate<_InIt,_OutIt>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GLfloat>>>
+          ]
+  ..\main.cpp(248): note: see reference to function template instantiation '_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _Ty=GLfloat,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GLfloat>>>
+          ]
+  Generating code
+  3 of 215 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  water1.vcxproj -> C:\Users\Olya\source\repos\water1\x64\Release\water1.exe

@@ -1,0 +1,55 @@
+﻿  main.cpp
+c:\users\olya\source\repos\water1\main.cpp(18): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\olya\source\repos\water1\main.cpp(255): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\users\olya\source\repos\water1\main.cpp(257): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xmemory0(856): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(958): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int>(_Alloc &,_Objty *const ,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<GLfloat>,
+              _Ty=float,
+              _Objty=float
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(958): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int>(_Alloc &,_Objty *const ,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<GLfloat>,
+              _Ty=float,
+              _Objty=float
+          ]
+  c:\users\olya\source\repos\water1\main.cpp(179): note: see reference to function template instantiation 'void std::vector<GLfloat,std::allocator<_Ty>>::emplace_back<int>(int &&)' being compiled
+          with
+          [
+              _Ty=GLfloat
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(2254): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(2273): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=float *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(2286): note: see reference to function template instantiation '_OutIt *std::_Copy_unchecked<float*,int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _InIt=float *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(2307): note: see reference to function template instantiation '_OutIt std::_Copy_no_deprecate<_InIt,std::_Array_iterator<_OutTy,133206>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::_Array_iterator<int,133206>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GLfloat>>>,
+              _OutTy=int
+          ]
+  c:\users\olya\source\repos\water1\main.cpp(246): note: see reference to function template instantiation '_OutTy *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int,133206>(_InIt,_InIt,_OutTy (&)[133206])' being compiled
+          with
+          [
+              _OutTy=int,
+              _Ty=GLfloat,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<GLfloat>>>
+          ]
+  camera.cc
+  Generating Code...
+  water1.vcxproj -> C:\Users\Olya\source\repos\water1\x64\Debug\water1.exe
+  water1.vcxproj -> C:\Users\Olya\source\repos\water1\x64\Debug\water1.pdb (Partial PDB)
